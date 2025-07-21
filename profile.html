@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Student Portal</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link active">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="logout.php" class="nav-link">Logout</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <div class="avatar-placeholder"></div>
+                </div>
+                <div class="profile-info">
+                    <h1 id="profileName">John Doe</h1>
+                    <p id="profileEmail">john.doe@student.edu</p>
+                    <span class="profile-badge">Student</span>
+                </div>
+            </div>
+
+            <div class="profile-content">
+                <div class="profile-section">
+                    <h2>Personal Information</h2>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <label>First Name</label>
+                            <span id="displayFirstName">John</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Last Name</label>
+                            <span id="displayLastName">Doe</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Email</label>
+                            <span id="displayEmail">john.doe@student.edu</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Student ID</label>
+                            <span id="displayStudentId">STU2024001</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Phone</label>
+                            <span id="displayPhone">0712546987</span>
+                        </div>
+                        <div class="info-item">
+                            <label>Registration Date</label>
+                            <span id="displayRegistrationDate">January 15, 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-section">
+                    <h2>Account Settings</h2>
+                    <div class="settings-options">
+                        <button class="btn btn-secondary">Edit Profile</button>
+                        <button class="btn btn-secondary">Change Password</button>
+                        <button class="btn btn-secondary">Privacy Settings</button>
+                    </div>
+                </div>
+
+                <div class="profile-section">
+                    <h2>Quick Actions</h2>
+                    <div class="quick-actions">
+                        <a href="contact.html" class="action-card">
+                            <div class="action-icon"></div>
+                            <h3>Contact Support</h3>
+                            <p>Get help from our support team</p>
+                        </a>
+                        <a href="index.html" class="action-card">
+                            <div class="action-icon"></div>
+                            <h3>Dashboard</h3>
+                            <p>Return to main dashboard</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
